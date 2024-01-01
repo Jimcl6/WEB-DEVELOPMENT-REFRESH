@@ -11,9 +11,69 @@
       font-family: 'Sono', sans-serif;
     }
 
+    /* answer */
+
+    .pricing-container {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+    }
+
+    .pricing-plan {
+      flex: 1;
+      max-width: 400px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .plan-title {
+      font-weight:bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .plan-price {
+      font-weight: bold;
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .plan-features {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .plan-features li {
+      margin-bottom: 20px;
+    }
+
+    .plan-button {
+      padding: 10px;
+      background-color: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+    }
+
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
-      
+
+      /* answer */
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .pricing-plan {
+        width:100%;
+      }
     }
   </style>
 </head>
